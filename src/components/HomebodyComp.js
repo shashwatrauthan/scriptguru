@@ -126,7 +126,7 @@ function HomebodyComp() {
                     </ul>
                 </div>
 
-                <div className='pr-32'>
+                <div className=''>
                     <h2 className=' mb-5 font-medium text-theme-footer-text text-md'><a href="/">Social</a></h2>
 
                     <ul className=' font-medium text-theme-footer-gray text-md my-3'>
