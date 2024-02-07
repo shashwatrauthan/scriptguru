@@ -35,12 +35,12 @@ function NavComp() {
         </div>
     
 
-        <div className="relative self-center w-1/3">
-          <div className='relative z-10 pl-1'>
+        <div className="flex relative self-center w-1/3">
+          <div className='relative z-10 pl-1 block'>
             <CiSearch size="1.5rem" color='gray' />
 
           </div>
-            <input className='absolute -top-2 outline-none text-gray-500 bg-[#F0F5FF] rounded h-[2.5rem] w-[30rem] pl-8' type="text" placeholder='Search...'/>
+            <input className='block -top-2 absolute outline-none text-gray-500 bg-[#F0F5FF] rounded h-[2.5rem] w-[30rem] pl-8' type="text" placeholder='Search...'/>
         </div>
 
 
@@ -48,16 +48,16 @@ function NavComp() {
           <div className="flex justify-center  items-center relative font-medium  w-48 m-auto text-[#3e3e3e]">
 
           
-            <div className='self-center relative z-10 top-6'>
-              <div className='relative top-6 block'>
+            <div className='flex self-center relative z-10 m-4 top-6'>
+              <div className=' -top-4 relative block'>
                 <CgProfile size="1.5rem"/>
               </div>
               {/* <a className='relative m-4 mr-6 -top-6 pl-4' href="/">Login</a> */}
 
-              <div className="relative m-4 mr-6 pl-2 inline-block hover:block -top-4 z-10"  >
-              <div className="mx-2 flex h-11 w-11 rounded-md action z-10">
+              <div className="relative  inline-block hover:block -top-2"  >
+              <div className="mx-2 flex h-11 rounded-md action z-10">
                 <div className='cursor-pointer relative block' >
-                  <button className='relative h-full -top-2 z-0' onClick={menuToggle} >Login</button>
+                  <button className='relative -top-2 ' onClick={menuToggle} >Login</button>
                 </div>
 
                     <div className="menu">
@@ -85,7 +85,7 @@ function NavComp() {
                 </div>
               </div>
               
-              <div className='pl-20 -top-[4.75rem] relative z-10 right-2 block'>
+              <div className=' relative  -top-4 right-2'>
                 <RiArrowDropDownLine size="1.5rem"/>
               </div>
             </div>
